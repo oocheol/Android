@@ -12,9 +12,20 @@
         android:layout_height="105dp"
         android:layout_marginStart="120dp"
         android:layout_marginTop="148dp"
-        android:background="@color/red"
         android:onClick="click"
         android:text="@string/FirstText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="226dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
