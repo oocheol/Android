@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapplication0520" >
 
+    <!-- Ctrl + Shift + /  (주석)   -->
+    <!-- 매니페스트 : App의 icon, title, permission 등
+                    정보 및 설정을 관리하는 파일-->
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"

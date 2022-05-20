@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
 }
 
+// 안드로이드 어플 전반적인 정보를 담고 있다
+// 버전, 빌드 방법, import한 라이브러리
 android {
     compileSdk 32
 
