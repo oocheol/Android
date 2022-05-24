@@ -1,4 +1,5 @@
 <resources>
+<!-- 문자열에 관련된 데이터를 태그 저장! -->
     <string name="app_name">My Application0520</string>
 
     <string name="FirstText">나는버튼</string>

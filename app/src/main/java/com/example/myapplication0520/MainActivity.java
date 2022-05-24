@@ -5,9 +5,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     EditText editText;
+    TextView tv_main;
 
     // 우리가 만든 어플을 실질적으로 실행시켜주는 역할
     @Override
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         // EditText --> PlainText
         editText = findViewById(R.id.editText);
+        tv_main = findViewById(R.id.tv_main);
 
     }
 
@@ -37,6 +40,17 @@ public class MainActivity extends AppCompatActivity {
         // getText() --> xml에서 인식 가능한 문자열타입
         String data = editText.getText().toString();
         Log.d("입력한 내용",data);
+
+        // TextView에 입력한 내용 출력
+        // tv_main = findViewById(R.id.tv_main);
+        tv_main.setText(data);
+
+    }
+
+    public void click2(View view){
+        // TextView에 내용을 --> '초기화 할꺼에요!' 출력!
+        // tv_main = findViewById(R.id.tv_main);
+        tv_main.setText("초기화 할꺼에요!");
     }
 
 }
