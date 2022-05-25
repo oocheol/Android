@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // Java의 Main 메소드!
+        // 차이점 : Java는 main 메소드가 끝나면 프로그램이 끝나게 되지만
+        // 안드로이드에서는 onCreate가 끝난다고 해서 프로그램이 종료되지 않음!
         super.onCreate(savedInstanceState);
 
         // xml 파일을 실질적으로 화면에 보여지게끔 만들어 줌!
